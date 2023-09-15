@@ -1,0 +1,22 @@
+const http=require("http")
+
+const server=http.createServer((req,res)=>{
+    if(req.url=="/"){
+        res.end("<h1>welcome to the server</h1>")
+    };
+    if(req.url=="/index"){
+        res.end("<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel pariatur fugit id non aliquid veritatis commodi tenetur libero. Rem, ex in laboriosam et dolor beatae assumenda tenetur asperiores voluptatem harum nulla magnam atque quia, veritatis recusandae culpa reprehenderit laborum excepturi temporibus tempore doloribus quaerat similique. Autem quam eos cum rem odio commodi dolorem voluptatum tempore officia beatae. Sit, hic eaque.</h1>")
+    };
+    if(req.url=="/login"){
+        res.end("<h1>priyal gabani</h1><h2>i am priyal gabanii...i am a student...i am completed 12std in sanskar kunj gyanpith school...i am backend devloper in red and white institutee.....i am very smart and intelligent student....i am priyal gabanii...i am a student...i am completed 12std in sanskar kunj gyanpith school...i am backend devloper in red and white institutee.....i am very smart and intelligent student....i am priyal gabanii...i am a student...i am completed 12std in sanskar kunj gyanpith school...i am backend devloper in red and white institutee.....i am very smart and intelligent student....i am priyal gabanii...i am a student...i am completed 12std in sanskar kunj gyanpith school...i am backend devloper in red and white institutee.....i am very smart and intelligent student....i am priyal gabanii...i am a student...i am completed 12std in sanskar kunj gyanpith school...i am backend devloper in red and white institutee.....i am very smart and intelligent student....i am priyal gabanii...i am a student...i am completed 12std in sanskar kunj gyanpith school...i am backend devloper in red and white institutee.....i am very smart and intelligent student....</h2>")
+    }
+    if(req.url=="/admin"){
+        res.end("<h1>node js</h1><h2>signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...signup to the node.js....welcome to the program...</h2>")
+    }
+    if(req.url=="/signup"){
+        res.end("<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus maiores pariatur id architecto non tempore, a repudiandae optio quibusdam aliquam, vel quas eos ex, sequi assumenda? Ducimus ea nemo hic sed, quam id vel similique doloremque eligendi a incidunt ullam nulla ab odio dolorem veniam recusandae veritatis fuga velit est accusamus atque. Aperiam iure, adipisci ducimus cupiditate modi, officiis sapiente ut, ipsum praesentium illo ex tempora? Numquam ab praesentium quia magni, dolor, alias sapiente laborum eveniet hic laudantium optio ea impedit obcaecati fugit ad velit iusto at sed? Inventore, nemo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus maiores pariatur id architecto non tempore, a repudiandae optio quibusdam aliquam, vel quas eos ex, sequi assumenda? Ducimus ea nemo hic sed, quam id vel similique doloremque eligendi a incidunt ullam nulla ab odio dolorem veniam recusandae veritatis fuga velit est accusamus atque. Aperiam iure, adipisci ducimus cupiditate modi, officiis sapiente ut, ipsum praesentium illo ex tempora? Numquam ab praesentium quia magni, dolor, alias sapiente laborum eveniet hic laudantium optio ea impedit obcaecati fugit ad velit iusto at sed? Inventore, nemo.</h1>")
+    }
+});
+server.listen(8091,()=>{
+    console.log(`starting server on the part 8091`)
+})
